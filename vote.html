@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Poll</title>
+    <link rel="icon" href="/icon.jpg" />
+    <link rel="stylesheet" type="text/css" href="/vote.css" />
+</head>
+<script src="vote.js"></script>
+
+<body>
+    <header>
+        <h1 class="heading">Voting Poll</h1>
+    </header>
+    <div class="middle">
+        <table>
+            <tr>
+                <td>
+                    <img src="/party1.jpg" /><br>
+                    <span class="party">Party 1</span>
+                    <br><button id="Party 1" onclick="party(this.id)" class="button">VOTE</button>
+                </td>
+                <td>
+                    <img src="/party2.jpg" /><br>
+                    <span class="party">Party 2</span>
+                    <br><button id="Party 2" onclick="party(this.id)" class="button">VOTE</button>
+                </td>
+                <td>
+                    <img src="/party3.jpg" /><br>
+                    <span class="party">Party 3</span>
+                    <br><button id="Party 3" onclick="party(this.id)" class="button">VOTE</button>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div class="footer" id="success"></div>
+</body>
+
+</html>
